@@ -1,0 +1,40 @@
+<!-- Web browser에게 HTML5 버젼으로 작성했다는 것을 알림 -->
+<!DOCTYPE html>                     
+<html>
+    <head>
+        <!-- 문서의 잡다한 정보 -->
+        <title>스타터핏 : 운동의 시작</title>
+        <style>
+            #main-title {color: orange;}
+            .sub-title {font-size: 24px;}
+            .box {background: steelblue; padding: 15px; margin-bottom: 20px; border-radius: 5px;}
+            .box > a {color: white;}
+            .box > p {color: lightskyblue;}
+        </style>
+    </head>
+    <body>
+        <!-- 화면에 표시되는 내용 -->   
+        <h1 id="main-title">스타터핏 : 운동의 시작</h1>               <!-- h1 : 주요도를 나타내는 tag -->
+        <div class="box">                                       <!-- div : 구역을 나타내는 tag -->
+            <h1 class="sub-title">기초 체력업! 무분할 루틴</h1>    
+            <p>운동을 처음 시작하는 헬린이 모여!</p>  <!-- p : 문단을 나타내는 tag -->                             
+            <a href="https://www.naver.com">지금 시작하기!</a>     <!-- 하이퍼 링크 tag -->
+        </div>
+        <div class="box">                                       <!-- div : 구역을 나타내는 tag -->
+            <h1 class="sub-title">초보 탈출! 3 분할 루틴 </h1>    
+            <p>운동 좀 했니? 드루와 드루와</p>  <!-- p : 문단을 나타내는 tag -->                             
+            <a href="https://www.naver.com">지금 시작하기!</a>     <!-- 하이퍼 링크 tag -->
+        </div>
+        <div class="box">
+            <h1 class="sub-title">나만의 운동 목표 설정</h1>
+            <input type="text" placeholder="목표입력">         <!-- 입력을 담당하는 tag -->
+            <button onclick="alert('레츠 기릿')">저장하기</button>
+            <ul>           <!-- 리스트를 담당하는 tag -->
+                <li><a href="#">웨이트로 몸짱되기!</a></li>
+                <li><a href="#">유산소로 다이어트!</a></li>
+                <li><a href="#">필라테스로 유연성과 코어잡기!</a></li>
+            </ul>
+        </div>
+        
+    </body>
+</html>
